@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background: #c6b29b;
+
+}
+
+/* Container */
+.container{
+    background: #f5f5f5;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 10px;
+    box-shadow: 0 2px 20px;
+
+}
+
+.header{
+    text-align: center;
+}
+
+.header h1{
+    margin-bottom: 5px;
+}
+
+.header h3{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.bild{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.bild img{
+    width: 100%;
+}
+
+
+/* Main */
+.main{
+    display: flex;
+}
+
+h2{
+    /* background: #c6b29b;  */
+    padding: 15px;
+    color: black;
+    margin: 10px;
+    font-size: 1.5rem;
+    /* border-radius: 0 50px 50px 0 ; */
+}
+
+
+/* vänster */
+.vanster{ 
+    flex: 1;
+    padding: 30px;
+}
+
+.vanster p{
+    line-height: 2;
+    
+}
+
+.vanster ul li{
+    line-height: 2;
+}
+
+.links a{
+    font-size: 30px;
+    color: #3d535f;
+    margin: 25px 10px;
+}
+
+.links a:hover{
+    color: #d38ca1;
+}
+
+
+/* Kompetens */
+.competens ul{
+    position: relative;
+}
+
+.competens ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px;
+}
+
+.competens ul li span{
+    span: black;
+
+
+}
+
+
+ .competens .procent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #d38ca1;
+    display: block;
+    margin-top: 5px;
+}
+
+.procent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: black;
+
+}
+
+
+/* Höger */
+
+.hoger{
+    flex: 1;
+    padding: 5px;
+}
+
+.hoger h3{
+    margin-bottom: 15px;
+}
+
+.hoger p3{
+    line-height: 2;
+}
+
+.hoger ul li{
+    line-height: 1.5;
+}
